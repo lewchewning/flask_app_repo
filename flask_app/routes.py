@@ -18,7 +18,7 @@ def about():
     return render_template("index.html")
 
 
-@app.route("/register", methods=['GET', 'POST'])
+@app.route("/registered", methods=['GET', 'POST'])
 def register():
 
     if request.method == 'GET':
